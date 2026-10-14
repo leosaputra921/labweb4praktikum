@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Layout Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Layout Sederhana</h1>
+        </header>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="artikel.html">Artikel</a>
+            <a href="about.html" class="active">About</a>
+            <a href="kontak.html">Kontak</a>
+        </nav>
+        <section id="hero">
+            <h1>About Me</h1>
+            <p>Halaman ini berisi deskripsi singkat tentang saya dan beberapa portfolio yang pernah saya kerjakan.</p>
+        </section>
+        <section id="wrapper">
+            <section id="main">
+                <article class="profile entry">
+                    <img src="https://dummyimage.com/150/db7d25/fff.png" alt="Foto profil">
+                    <h3>Nama Lengkap Anda</h3>
+                    <p>Mahasiswa Teknik Informatika, Universitas Pelita Bangsa. NIM: 000000000000.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lorem elit, iaculis in nisl volutpat, malesuada tincidunt arcu. Proin in leo fringilla, vestibulum mi porta, faucibus felis. Integer pharetra est nunc, nec pretium nunc pretium ac.</p>
+                </article>
+
+                <hr class="divider" />
+                <section class="about-text">
+                    <h2>Deskripsi</h2>
+                    <p>Saya sedang belajar Pemrograman Web, khususnya HTML5 dan CSS. Pada praktikum ini saya membuat layout web sederhana menggunakan semantic element dan CSS float.</p>
+                    <h2>Keahlian</h2>
+                    <ul>
+                        <li>HTML5 &amp; CSS3</li>
+                        <li>Layout dengan CSS Float</li>
+                        <li>Version Control dengan Git &amp; GitHub</li>
+                    </ul>
+                </section>
+
+                <hr class="divider" />
+                <section class="about-text">
+                    <h2>Portfolio</h2>
+                    <div class="row">
+                        <div class="portfolio-item">
+                            <img src="https://dummyimage.com/300x200/3e73e6/fff.png" alt="Portfolio 1">
+                            <h4>Website Profil</h4>
+                            <p>Website profil sederhana dengan HTML dan CSS.</p>
+                        </div>
+                        <div class="portfolio-item">
+                            <img src="https://dummyimage.com/300x200/71e6d4/fff.png" alt="Portfolio 2">
+                            <h4>Layout Sederhana</h4>
+                            <p>Layout dengan header, navigasi, konten, sidebar, dan footer.</p>
+                        </div>
+                    </div>
+                </section>
+            </section>
+            <aside id="sidebar">
+                <div class="widget-box">
+                    <h3 class="title">Widget Header</h3>
+                    <ul>
+                        <li><a href="#">Widget Link</a></li>
+                        <li><a href="#">Widget Link</a></li>
+                        <li><a href="#">Widget Link</a></li>
+                        <li><a href="#">Widget Link</a></li>
+                        <li><a href="#">Widget Link</a></li>
+                    </ul>
+                </div>
+                <div class="widget-box">
+                    <h3 class="title">Widget Text</h3>
+                    <p>Vestibulum lorem elit, iaculis in nisl volutpat, malesuada tincidunt arcu. Proin in leo fringilla, vestibulum mi porta, faucibus felis. Integer pharetra est nunc, nec pretium nunc pretium ac.</p>
+                </div>
+            </aside>
+        </section>
+        <footer>
+            <p>&copy; 2021 - Universitas Pelita Bangsa</p>
+        </footer>
+    </div>
+</body>
+</html>
